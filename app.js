@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const app = express();
 
 //connect mongo
-mongoose.connect("mongodb://vai:reddevil333@ds125831.mlab.com:25831/empl")
+mongoose.connect("<mongodb-connection-string>")
   .then(() => {
     console.log("Connected to database");
   })
